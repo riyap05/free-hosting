@@ -1,0 +1,10 @@
+name: automate-hosting
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: free-hosting
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
